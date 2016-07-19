@@ -9,7 +9,7 @@ Install
 
 Python 2.7 is required as well as gcc.
 
-    $ python setup.py install
+    $ sudo python setup.py install
 
 
 Test
@@ -19,7 +19,9 @@ After installation, test hash.
 
     $ python test.py
 
+
 Credits
 -------
 
-* Module written by @xCoreDev
+* Based on dashdot's module: https://github.com/dashdot/python-x11_hash
+* Thx @ocminer / @tpruvot / @alexis78 for their debug tests.
