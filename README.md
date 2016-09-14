@@ -1,7 +1,7 @@
 vcash_hash (v1.0)
 ===========================
 
-Python module for Vcash's hashing.
+Python module for Vcash's Proof-of-Work hashing (Whirlpoolx & Blake256 8rounds).
 
 
 Install
