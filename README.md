@@ -1,4 +1,4 @@
-vcash_hash (v1.5)
+vcash_hash (v1.6)
 ===========================
 
 Python module for Vcash's Proof-of-Work hashing (Whirlpoolx & Blake256 8rounds).

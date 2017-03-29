@@ -8,11 +8,11 @@ vcash_hash_module = Extension('vcash_hash',
                                  include_dirs=['.', './sha3'])
 
 setup (name = 'vcash_hash',
-       version = '1.5',
+       version = '1.6',
        description = 'Binding for Vcash Proof-of-Work hashing (Whirlpoolx & Blake256 8rounds).',
        maintainer = 'xCoreDev',
        maintainer_email = 'xCore@vchain.info',
        url = 'https://github.com/xCoreDev/python-vcash_hash',
-       download_url = 'https://github.com/xCoreDev/python-vcash_hash/tarball/1.5',
+       download_url = 'https://github.com/xCoreDev/python-vcash_hash/tarball/1.6',
        keywords = ['vcash', 'whirlpoolx', 'blake'],
        ext_modules = [vcash_hash_module])

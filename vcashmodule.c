@@ -67,7 +67,7 @@ static PyMethodDef VcashMethods[] = {
 };
 
 #if PY_MAJOR_VERSION >= 3
-static struct PyModuleDef X11Module = {
+static struct PyModuleDef VcashModule = {
     PyModuleDef_HEAD_INIT,
     "vcash_hash",
     "...",
