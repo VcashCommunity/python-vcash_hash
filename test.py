@@ -98,9 +98,9 @@ class TestSequenceFunctions(unittest.TestCase):
 
     def setUp(self):
         self.whirlpoolx_block_header = unhexlify(whirlpoolx_header_hex)
-        self.whirlpoolx_best_hash = whirlpoolx_best_hash
+        self.whirlpoolx_best_hash = str.encode(whirlpoolx_best_hash)
         self.blake_block_header = unhexlify(blake_header_hex)
-        self.blake_best_hash = blake_best_hash
+        self.blake_best_hash = str.encode(blake_best_hash)
 
     def test_whirlpoolx_vcash_hash(self):
         self.whirlpoolx_pow_hash = hexlify(vcash_hash.getWhirlpoolxPoWHash(self.whirlpoolx_block_header))
