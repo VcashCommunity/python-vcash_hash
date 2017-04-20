@@ -1,0 +1,5 @@
+include vcashhash.h
+include sha3/md_helper.c
+include sha3/sph_blake.h
+include sha3/sph_types.h
+include sha3/sph_whirlpool.h

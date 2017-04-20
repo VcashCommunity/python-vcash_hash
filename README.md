@@ -1,4 +1,4 @@
-vcash_hash (v1.6)
+vcash_hash (v1.7)
 ===========================
 
 Python module for Vcash's Proof-of-Work hashing (Whirlpoolx & Blake256 8rounds).
@@ -7,27 +7,39 @@ Python module for Vcash's Proof-of-Work hashing (Whirlpoolx & Blake256 8rounds).
 Install from pip
 ----------------
 
-Python 2.7 is required as well as gcc.
+Python2 is required as well as gcc:
 
     $ sudo pip install vcash_hash
+
+Python3 is required as well as gcc:
+
+    $ sudo pip3 install vcash_hash
 
 
 Install from git
 ----------------
 
-Python 2.7 is required as well as gcc.
+Python2 is required as well as gcc:
 
     $ git clone https://github.com/xCoreDev/python-vcash_hash.git
     $ cd python-vcash_hash/
     $ sudo python setup.py install
 
+Python3 is required as well as gcc:
+
+    $ git clone https://github.com/xCoreDev/python-vcash_hash.git
+    $ cd python-vcash_hash/
+    $ sudo python3 setup.py install
+
 
 Test
 -------
 
-After installation, test hash.
+After installation, test hash:
 
     $ python test.py
+or:
+    $ python3 test.py
 
 
 Credits
